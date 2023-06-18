@@ -1,37 +1,77 @@
-.container {
+#container1 {
   width: 600px;
   height: 400px;
   padding-top: 35px;
 }
 .search-bar {
-  margin-top: 20px;
+  margin-top: 40px;
+
   margin-left: 30px;
-  padding-left: 120px;
+  padding-left: 200px;
   padding-bottom: 10px;
   border-radius: 6px;
 }
 .btn-outline-primary {
   position: absolute;
+  margin-top: 40px;
+  margin-left: 100px;
+
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.city-name {
+  margin-top: 45px;
+  padding-left: 40px;
+}
+.week-day,
+.local-time {
+  font-size: 20px;
   margin-top: 20px;
-  margin-left: 200px;
+}
+.week-day {
+  padding-left: 45px;
+}
+.local-time {
+  padding-right: 25px;
+}
+.weather-type {
+  font-size: 20px;
+  padding-left: 45px;
 }
 
 .emoji {
   text-align: right;
-  font-size: 100px;
+  font-size: 120px;
   padding-right: 35px;
+
+  position: relative;
+  top: -170px;
 }
 .weather-degree {
   text-align: right;
-  font-size: 30px;
-  padding-right: 55px;
+  font-size: 28px;
+  padding-right: 75px;
+  position: relative;
+  top: -170px;
 }
 
 .list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding-top: 100px;
-  padding-left: 8px;
-  margin-bottom: 35px;
+}
+
+#container2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  top: -100px;
+}
+#container3 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  position: relative;
+  top: -70px;
 }

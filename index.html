@@ -13,7 +13,7 @@
     <title>WeatherApp</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container1">
       <div class="card">
         <form>
           <input
@@ -27,48 +27,95 @@
         </form>
 
         <h1 class="city-name">Edinburgh</h1>
-        <p class="week-day">Monday</p>
-        <p class="local-time">22:18</p>
+        <p class="week-day">Monday,<span class="local-time">22:18</span></p>
         <p class="weather-type">Mist</p>
         <p class="emoji">🌟</p>
         <p class="weather-degree">7°C|°F</p>
-        <p class="percipitation">percipitation</p>
-        <p class="windspeed">windspeed</p>
-        <p class="humidity">humidity</p>
-        <div class="card">
-          <ul class="list">
-            <li class="Tuesday">
-              Tues<br />
-              ⛅<br />
-              12°/6°
-            </li>
-            <li class="Wednesday">
-              Wed<br />
-              🌨️<br />
-              12°/6°
-            </li>
-            <li class="Thursday">
-              Thu<br />
-              ⛈️<br />
-              12°/8°
-            </li>
-            <li class="Friday">
-              Fri<br />
-              🌧️<br />
-              12°/7°
-            </li>
-            <li class="Saturday">
-              Sat<br />
-              🌥️<br />
-              13°/7°
-            </li>
-            <li class="Sunday">
-              Sun<br />
-              🌥️<br />
-              13°/6°
-            </li>
-          </ul>
+
+        <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box">
+                <div class="percipitation" id="percipitation">
+                  percipitation,
+                  <img
+                    src="file:///D:/education/lectures/sheCodes/weather-icons-master/weather-icons-master/design/fill/animation-ready/rain.svg"
+                    width="10%"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box">
+                <div class="windspeed" id="windspeed">
+                  windspeed,
+                  <img
+                    src="file:///D:/education/lectures/sheCodes/weather-icons-master/weather-icons-master/design/fill/animation-ready/wind.svg"
+                    width="10%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box">
+                <div class="humidity" id="humidity">
+                  Humidity,
+                  <img
+                    src="file:///D:/education/lectures/sheCodes/weather-icons-master/weather-icons-master/production/fill/all/humidity.svg"
+                    width="10%"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box">
+                <div class="uv-index" id="uv-index">
+                  Uv Index,
+                  <img
+                    src="file:///D:/education/lectures/sheCodes/weather-icons-master/weather-icons-master/design/fill/animation-ready/uv-index.svg"
+                    width="10%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="container" id="container3">
+        <ul class="list">
+          <li class="Tuesday">
+            Tues<br />
+            ⛅<br />
+            12°/6°
+          </li>
+          <li class="Wednesday">
+            Wed<br />
+            🌨️<br />
+            12°/6°
+          </li>
+          <li class="Thursday">
+            Thu<br />
+            ⛈️<br />
+            12°/8°
+          </li>
+          <li class="Friday">
+            Fri<br />
+            🌧️<br />
+            12°/7°
+          </li>
+          <li class="Saturday">
+            Sat<br />
+            🌥️<br />
+            13°/7°
+          </li>
+          <li class="Sunday">
+            Sun<br />
+            🌥️<br />
+            13°/6°
+          </li>
+        </ul>
       </div>
     </div>
 
