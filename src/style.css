@@ -230,3 +230,12 @@ body {
   text-align: right;
   float: right;
 }
+.heading-forecast {
+}
+.footnote {
+  font-size: 16px;
+
+  position: relative;
+  top: -680px;
+  right: -450px;
+}
