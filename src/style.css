@@ -101,7 +101,8 @@ body {
   width: 250px;
   height: 80px;
   position: relative;
-  top: -190px;
+  top: -90px;
+  right: -260px;
 }
 .percipitation {
   font-size: 25px;
@@ -141,7 +142,8 @@ body {
   height: 80px;
   margin-bottom: 20px;
   position: relative;
-  top: -65px;
+  top: -167px;
+  left: 260px;
 }
 .uv-index {
   font-size: 25px;
