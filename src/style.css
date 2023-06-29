@@ -148,6 +148,13 @@ body {
 .uv-index {
   font-size: 25px;
 }
+.uv-value-location {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: -4px;
+  left: -6px;
+}
 #container2:hover,
 #container21:hover,
 #container22:hover,
