@@ -231,6 +231,10 @@ body {
   float: right;
 }
 .heading-forecast {
+  font-size: 40px;
+  position: relative;
+  top: 35px;
+  left: 29px;
 }
 .footnote {
   font-size: 16px;
