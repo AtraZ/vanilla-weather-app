@@ -21,6 +21,14 @@ body {
   padding-left: 200px;
   padding-bottom: 13px;
   border-radius: 6px;
+  border-color: transparent;
+  background-color: rgba(253, 242, 230, 0.8);
+}
+.search-bar:active,
+.search-bar:focus {
+  outline: none;
+  border: none;
+  background-color: rgba(253, 242, 230, 0.8);
 }
 
 .btn-outline-primary {
@@ -29,8 +37,15 @@ body {
   padding-left: 30px;
   border-radius: 6px;
   padding-bottom: 8px;
+  background-color: rgba(253, 242, 230, 0.8);
+  border-color: transparent;
+  color: black;
 }
-
+.btn-outline-primary:hover {
+  background-color: rgba(253, 242, 230, 0.8);
+  background-color: rgba(253, 242, 230, 0.8);
+  color: black;
+}
 .city-name {
   margin-top: 40px;
   padding-left: 154px;
