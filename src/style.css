@@ -75,7 +75,7 @@ body {
   font-size: 120px;
   padding-left: 36px;
   position: relative;
-  top: -265px;
+  top: -280px;
 }
 .weather-type {
   font-size: 23px;
@@ -148,13 +148,17 @@ body {
 .uv-index {
   font-size: 25px;
 }
-.uv-value-location {
+.uv-value-location,
+.humidity-input-location,
+.windspeed-input-value,
+.precipitation-input-value {
   font-size: 18px;
   text-align: center;
   position: relative;
   top: -4px;
   left: -6px;
 }
+
 #container2:hover,
 #container21:hover,
 #container22:hover,
@@ -183,7 +187,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: 30px;
+  top: 8px;
 }
 .container31:hover,
 .container32:hover,
@@ -193,7 +197,7 @@ body {
 .container36:hover {
   background-color: rgba(253, 242, 230, 0.3);
   transition: all 500ms ease-in-out;
-  border: 5px;
+  border-radius: 5px;
   width: 250px;
 }
 .container32 {
@@ -203,7 +207,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: 70px;
+  top: 50px;
 }
 .container33 {
   border: 2px solid transparent;
@@ -212,7 +216,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: 110px;
+  top: 90px;
 }
 .container34 {
   border: 2px solid transparent;
@@ -221,7 +225,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: 150px;
+  top: 130px;
 }
 .container35 {
   border: 2px solid transparent;
@@ -230,7 +234,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: 200px;
+  top: 180px;
 }
 .container31 {
   border: 2px solid transparent;
@@ -239,7 +243,7 @@ body {
   width: 400px;
   height: 60px;
   position: relative;
-  top: -10px;
+  top: -30px;
 }
 .day-name {
   text-align: left;
@@ -255,9 +259,10 @@ body {
   float: right;
 }
 .heading-forecast {
+  font-style: italic;
   font-size: 40px;
   position: relative;
-  top: 35px;
+  top: 32px;
   left: 29px;
 }
 .footnote {
@@ -266,4 +271,10 @@ body {
   position: relative;
   top: -680px;
   right: -450px;
+}
+.form-check.form-switch {
+  font-size: 25px;
+  position: relative;
+  left: 50px;
+  top: -60px;
 }
